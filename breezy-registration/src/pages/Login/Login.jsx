@@ -34,7 +34,6 @@ function Login() {
         "login": username,
         "password": password,
        }
-       console.log(struct)
 
       fetch(`${linkApi}authentication`, {
         method: 'POST', 
